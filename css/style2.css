@@ -1,0 +1,178 @@
+/************Classes*****************/
+/************Top-container*****************/
+.top-container {
+  background-color: #EAF9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+/************End of Top-container*****************/
+/************Middle Container*****************/
+.intro {
+  margin: auto;
+  width: 30%;
+}
+
+.course {
+  font-style: italic;
+  text-decoration: none;
+}
+
+.website-links {
+  font-size: bold;
+  text-decoration: none;
+}
+
+.website-links:hover {
+  font-size: bold;
+  color: #11999E;
+}
+
+.container {
+  margin: 10px auto;
+  width: 50%;
+}
+
+.skill-title {
+  text-align: left;
+}
+
+.skill-description {
+  text-align: left;
+}
+
+.skill-rating {
+  text-align: left;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.profile-pic {
+  height: 200;
+  margin-top: 50px;
+  width: 200px;
+}
+
+.rating {
+  text-decoration: none;
+}
+
+.content-sidebar {
+  display: flex;
+  margin: 50px auto;
+}
+
+
+/* skills image dimensions */
+.computer-img {
+  margin-right: 30px;
+  width: 100%;
+}
+
+.wordpress-img {
+  margin-left: 30px;
+  width: 100%;
+}
+
+.photoshop-img {
+  margin-right: 30px;
+  width: 100%;
+}
+
+.col>img {
+  height: 200px;
+  width: 200px;
+}
+
+/**************contact  section***************/
+.contact-me {
+  text-decoration: none;
+  margin-bottom: 150px;
+}
+
+.contact-me-title {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.contact-me-message {
+  margin: 0 auto 50px auto;
+  width: 40%;
+}
+
+/************Button*************/
+.btn {
+  -webkit-box-shadow: 0 18px 40px rgba(102, 191, 191, 0.3);
+  -moz-box-shadow: 0 18px 40px rgba(102, 191, 191, 0.3);
+  background-color: #66BFBF;
+  border: 2px solid #66BFBF;
+  border-radius: 50px;
+  box-shadow: 0 18px 40px rgba(102, 191, 191, 0.3);
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 50px;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #FFFFFF;
+  border: 2px solid #66BFBF;
+  border-radius: 50px;
+  color: #66BFBF;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 50px;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+/**************End of Middle Container***************/
+/**************Footer section***************/
+.bottom-container {
+  background-color: #66BFBF;
+  margin-top: 50px;
+  padding: 50px 0 5px 0;
+}
+
+/************Bottom Containter*****************/
+.bottom-container {
+  margin: 100px 0 0 0;
+}
+
+.footer-link {
+  color: #11999E;
+  font-style: normal;
+  text-decoration: none;
+  margin: 25px;
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
+  font-style: normal;
+  text-decoration: none;
+  margin: 25px;
+}
+
+.copywrite-text {
+  font-size: 12px;
+  color: #EAF6F6;
+  margin-top: 25px;
+  padding: 20px 0;
+}
+
+/************End of Bottom-container*****************/
